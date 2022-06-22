@@ -4,7 +4,7 @@ This project simulates a 3-DOF Prosthetic Arm for a Volleyball spike using the R
 ## Inverse Dynamics
 Inverse dynamics is the method to calculate the forces in a robots joint using a set of joint accelerations. They are crucial for the control and motion planning of a Robot.
 
-## Recursive Newton-Euler ALgorithm
+## Recursive Newton-Euler Algorithm
 The Recursive Newton-Euler equation works by using the **Theta**, **Theta-dot** and **Theta-double-dot** (i.e. which are the set of joint position, velocities, and acceleration) at a particular joint. The algorithm takes these inputs with some initial inputs to return the **Force** and **Torques** at that particular joint.
 
 
